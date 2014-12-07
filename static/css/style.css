@@ -1,0 +1,72 @@
+
+
+
+h1 {color:black; font-size:30px; text-align:center; }
+
+
+
+
+.bouton_on {
+	-moz-box-shadow: 0px -1px 0px 0px #1c1b18;
+	-webkit-box-shadow: 0px -1px 0px 0px #1c1b18;
+	box-shadow: 0px -1px 0px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	
+	position:absolute;
+	left:40%;
+	top:30%;
+	margin-left:-(largeur/2)px;
+	margin-top:-(hauteur/2)px; 
+	
+}
+.bouton_on:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+	background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+	background-color:#ccc2a6;
+
+	position:absolute;
+	left:40%;
+	top:30%;
+	margin-left:-(largeur/2)px;
+	margin-top:-(hauteur/2)px; 
+	
+	
+}
+.bouton_on:active {
+	position:absolute;
+	left:40%;
+	top:30%;
+	margin-left:-(largeur/2)px;
+	margin-top:-(hauteur/2)px; 
+  	
+	
+}
+
+
+position:relative;
+   	top: 1px;
